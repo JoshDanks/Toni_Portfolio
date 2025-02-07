@@ -1,0 +1,44 @@
+body {
+  background-color: #141312;
+  margin: 0;
+  color: #ffffff;
+}
+
+#section_1 {
+  position: relative;
+  font-family: "Inter", serif;
+}
+
+#toni_cover {
+  position: static;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+#toni_logo {
+  position: absolute;
+  left: 36%;
+  top: 28%;
+
+  max-width: 27vw;
+}
+
+#toni_logo_text {
+  position: absolute;
+  left: 41%;
+  top: 51%;
+  font-size: 1.25vw;
+}
+
+@media screen and (max-width: 1400px) {
+  #toni_logo_text {
+    /* font-size: 1.1em; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #toni_logo_text {
+    /* left: 40%;
+    font-size: 0.6em; */
+  }
+}
