@@ -1,1 +1,23 @@
+.botan {
+    background-image: url("../Images/Cover photos/botan-2.png");
+}
 
+.botan:hover {
+    background-image: url("../Images/Cover photos/botan-1.png");
+  }
+
+.fonus {
+    background-image: url("../Images/Cover photos/fonus-2.png");
+}
+
+.fonus:hover {
+    background-image: url("../Images/Cover photos/fonus-1.png");
+  }
+
+.trafik {
+    background-image: url("../Images/Cover photos/trafikverket-2.png");
+}
+
+.trafik:hover {
+    background-image: url("../Images/Cover photos/traffikverket-1.png");
+  }
