@@ -21,6 +21,7 @@ body {
   height: 100vh;
   margin: 0px;
   object-fit: cover;
+  filter: grayscale(1);
 }
 
 .logo_container {
@@ -49,14 +50,16 @@ body {
 #case_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 30%;
+  justify-content: space-evenly;
 }
 
 .case {
   width: 12vw;
-  background-size: cover;
-  transition: background-image 0.3s ease-out;
+  padding: 10px;
+}
+
+.case:hover {
+  filter: brightness(150%);
 }
 
 @media screen and (max-width: 1400px) {
@@ -77,6 +80,10 @@ body {
   #toni_logo {
     max-width: 38vw;
   }
+
+  .case {
+    width: 25vw;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -93,6 +100,10 @@ body {
   #toni_logo_text {
     font-size: 90%;
     max-width: 45vw;
+  }
+
+  .case {
+    width: 25vw;
   }
 }
 
@@ -113,5 +124,9 @@ body {
   #toni_logo_text {
     font-size: 80%;
     max-width: 65vw;
+  }
+
+  .case {
+    width: 25vw;
   }
 }
