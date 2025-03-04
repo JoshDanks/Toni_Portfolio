@@ -5,6 +5,25 @@
   text-align: center;
 }
 
+.odibee_sub_header {
+  font-family: "Odibee Sans", serif;
+  font-weight: 400;
+  font-size: 4em;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+section {
+  padding-bottom: 1vh;
+}
+
+section {
+  margin-bottom: 5vh;
+}
+
 body {
   background-color: #141312;
   margin: 0;
@@ -21,7 +40,6 @@ body {
   height: 100vh;
   margin: 0px;
   object-fit: cover;
-  filter: grayscale(1);
 }
 
 .logo_container {
@@ -44,7 +62,11 @@ body {
 }
 
 #toni_cctv {
-  max-width: 25%;
+  height: 80vh;
+  display: inline;
+  /* max-width: 50%; */
+  position: relative;
+  object-fit: cover;
 }
 
 #case_container {
@@ -54,12 +76,47 @@ body {
 }
 
 .case {
-  width: 12vw;
-  padding: 10px;
+  width: 18vw;
+  height: 18vw;
+  padding: 100px;
+  object-fit: cover;
 }
 
 .case:hover {
   filter: brightness(150%);
+}
+
+#contact_text {
+  display: inline;
+  position: absolute;
+  margin-left: 3vw;
+  max-width: 30%;
+
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 2em;
+
+  h1 {
+    font-size: 5em;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 3em;
+    text-align: left;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+#contact_text :is(h1, h2, h3) {
+  margin: 2vh 0vh 0vh;
 }
 
 @media screen and (max-width: 1400px) {
@@ -83,6 +140,7 @@ body {
 
   .case {
     width: 25vw;
+    height: 25vw;
   }
 }
 
@@ -104,6 +162,7 @@ body {
 
   .case {
     width: 25vw;
+    height: 25vw;
   }
 }
 
@@ -128,5 +187,6 @@ body {
 
   .case {
     width: 25vw;
+    height: 25vw;
   }
 }
