@@ -87,10 +87,8 @@ body {
 }
 
 #contact_text {
-  display: inline;
-  position: absolute;
-  margin-left: 3vw;
-  max-width: 30%;
+  display: block;
+  max-width: 80%;
 
   font-family: "Inter", serif;
   font-weight: 400;
@@ -142,6 +140,40 @@ body {
     width: 25vw;
     height: 25vw;
   }
+
+  #section_contact {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #contact_text {
+    display: block;
+    position: static;
+    margin-left: 1vw;
+    max-width: 80%;
+  
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1em;
+  
+    h1 {
+      font-size: 3em;
+      text-align: left;
+    }
+  
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+  
+    h3 {
+      font-weight: bold;
+    }
+  
+    p {
+      margin: 0;
+    }
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -163,6 +195,35 @@ body {
   .case {
     width: 25vw;
     height: 25vw;
+  }
+
+  #contact_text {
+    display: inline;
+    position: absolute;
+    margin-left: 3vw;
+    max-width: 30%;
+  
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1em;
+  
+    h1 {
+      font-size: 3em;
+      text-align: left;
+    }
+  
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+  
+    h3 {
+      font-weight: bold;
+    }
+  
+    p {
+      margin: 0;
+    }
   }
 }
 
@@ -188,5 +249,34 @@ body {
   .case {
     width: 25vw;
     height: 25vw;
+  }
+
+  #contact_text {
+    display: inline;
+    position: absolute;
+    margin-left: 3vw;
+    max-width: 30%;
+  
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1em;
+  
+    h1 {
+      font-size: 3em;
+      text-align: left;
+    }
+  
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+  
+    h3 {
+      font-weight: bold;
+    }
+  
+    p {
+      margin: 0;
+    }
   }
 }
