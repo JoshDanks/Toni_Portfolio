@@ -247,8 +247,42 @@ body {
   }
 
   .case {
-    width: 25vw;
-    height: 25vw;
+    width: 40vw;
+    height: 40vw;
+    padding: 50px;
+  }
+
+  #section_contact {
+    display: inline;
+  }
+
+  #contact_text {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1em;
+
+    h1 {
+      font-size: 3em;
+      text-align: left;
+    }
+
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  #toni_cctv {
+    width: 100%;
+    display: block;
   }
 
   #contact_text {
